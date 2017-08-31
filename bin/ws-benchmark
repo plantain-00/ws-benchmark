@@ -1,2 +1,2 @@
-#!/usr/bin/env node --nouse-idle-notification --expose-gc --max-old-space-size 8196
+#!/usr/bin/env node --nouse-idle-notification --expose-gc --max-old-space-size=8196
 require("../dist/index.js");
