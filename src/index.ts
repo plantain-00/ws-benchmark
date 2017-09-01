@@ -1,5 +1,6 @@
 import * as minimist from "minimist";
 import * as http from "http";
+import * as https from "https";
 import * as fs from "fs";
 import { URL } from "url";
 import * as microtime from "microtime";
@@ -115,9 +116,10 @@ async function executeCommandLine() {
 
     if (url.startsWith("http://") || url.startsWith("https://")) {
         const urlObject = new URL(url);
+        const request = urlObject.protocol === "https:" ? https.request : http.request;
 
         for (let i = 0; i < concurrency; i++) {
-            const agent = new http.Agent();
+            const agent = urlObject.protocol === "https:" ? new https.Agent() : new http.Agent();
             const requestCount = i < extraRequestCount ? minRequestCountPerClient + 1 : minRequestCountPerClient;
 
             (async () => {
@@ -131,11 +133,11 @@ async function executeCommandLine() {
             })();
         }
 
-        function requestAsync(agent: http.Agent) {
+        function requestAsync(agent: http.Agent | https.Agent) {
             return new Promise<void>((resolve, reject) => {
                 const requestStartMoment = microtime.now();
 
-                const req = http.request({
+                const req = request({
                     protocol: urlObject.protocol,
                     host: urlObject.host,
                     hostname: urlObject.hostname,
