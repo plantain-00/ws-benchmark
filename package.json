@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/plantain-00/ws-benchmark#readme",
   "devDependencies": {
-    "@types/jasmine": "2.5.54",
+    "@types/jasmine": "2.6.0",
     "@types/microtime": "2.1.0",
     "@types/minimist": "1.2.0",
     "@types/node": "8.0.28",
@@ -32,7 +32,7 @@
     "clean-scripts": "1.2.6",
     "jasmine": "2.8.0",
     "no-unused-export": "1.2.6",
-    "rimraf": "2.6.1",
+    "rimraf": "2.6.2",
     "standard": "10.0.3",
     "tslint": "5.7.0",
     "typescript": "2.5.2",
@@ -41,7 +41,7 @@
   "dependencies": {
     "microtime": "2.1.6",
     "minimist": "1.2.0",
-    "ws": "3.1.0"
+    "ws": "3.2.0"
   },
   "bin": {
     "ws-benchmark": "bin/ws-benchmark"
