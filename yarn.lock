@@ -18,9 +18,9 @@
   version "8.0.27"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.27.tgz#13fbe7e92afeecebb843d7cea6c15b521e0000e1"
 
-"@types/node@8.0.30":
-  version "8.0.30"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.30.tgz#aa3c42946fc6357737eb215349fe728b38679d05"
+"@types/node@8.0.31":
+  version "8.0.31"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.31.tgz#d9af61093cf4bfc9f066ca34de0175012cfb0ce9"
 
 "@types/node@^6.0.46":
   version "6.0.88"
@@ -1018,16 +1018,16 @@ nested-error-stacks@^2.0.0:
   dependencies:
     inherits "~2.0.1"
 
-no-unused-export@1.2.7:
-  version "1.2.7"
-  resolved "https://registry.yarnpkg.com/no-unused-export/-/no-unused-export-1.2.7.tgz#1fd59afce2093f2a5cac5c07458e5fa446a20110"
+no-unused-export@1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/no-unused-export/-/no-unused-export-1.3.0.tgz#3b8c48f27041e1f47cea69088dcbb3e15b20230a"
   dependencies:
     glob "7.1.2"
     minimist "1.2.0"
     parse5 "3.0.2"
     postcss-less "1.1.0"
     postcss-scss "1.0.2"
-    typescript "2.4.2"
+    typescript "2.5.2"
 
 node-abi@^2.0.0:
   version "2.1.1"
@@ -1569,13 +1569,13 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
-typescript@2.4.2:
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.4.2.tgz#f8395f85d459276067c988aa41837a8f82870844"
-
 typescript@2.5.2:
   version "2.5.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.5.2.tgz#038a95f7d9bbb420b1bf35ba31d4c5c1dd3ffe34"
+
+typescript@2.5.3:
+  version "2.5.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.5.3.tgz#df3dcdc38f3beb800d4bc322646b04a3f6ca7f0d"
 
 ultron@~1.1.0:
   version "1.1.0"
