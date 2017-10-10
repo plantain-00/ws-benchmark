@@ -6,3 +6,11 @@ wss.on('connection', ws => {
   ws.on('message', data => {
   })
 })
+
+process.on('SIGINT', () => {
+  process.exit()
+})
+
+process.on('SIGTERM', () => {
+  process.exit()
+})
