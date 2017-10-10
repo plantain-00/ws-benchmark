@@ -201,9 +201,9 @@ clean-release@1.3.5:
     rimraf "2.6.2"
     tmp "0.0.33"
 
-clean-scripts@1.3.3:
-  version "1.3.3"
-  resolved "https://registry.yarnpkg.com/clean-scripts/-/clean-scripts-1.3.3.tgz#4f70dcf71b04bfa6c53184094a79932881ffb54b"
+clean-scripts@1.4.2:
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/clean-scripts/-/clean-scripts-1.4.2.tgz#90054e3db86fcdd5ab94a61b147cc02acd5a66de"
   dependencies:
     minimist "1.2.0"
     pretty-ms "3.0.1"
