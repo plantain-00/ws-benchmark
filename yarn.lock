@@ -39,8 +39,8 @@ acorn@^3.0.4:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-3.3.0.tgz#45e37fb39e8da3f25baee3ff5369e2bb5f22017a"
 
 acorn@^5.1.1:
-  version "5.1.2"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.1.2.tgz#911cb53e036807cf0fa778dc5d370fbd864246d7"
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.2.1.tgz#317ac7821826c22c702d66189ab8359675f135d7"
 
 ajv-keywords@^1.0.0:
   version "1.5.1"
@@ -197,9 +197,9 @@ clean-release@1.3.5:
     rimraf "2.6.2"
     tmp "0.0.33"
 
-clean-scripts@1.5.1:
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/clean-scripts/-/clean-scripts-1.5.1.tgz#358433f747857e9ad40c1da6e70f558a6895de43"
+clean-scripts@1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/clean-scripts/-/clean-scripts-1.6.0.tgz#8df2f511a818fe4d9ab23c36a95463a441aefdfd"
   dependencies:
     minimist "1.2.0"
     pretty-ms "3.0.1"
@@ -1010,20 +1010,22 @@ nested-error-stacks@^2.0.0:
   dependencies:
     inherits "~2.0.1"
 
-no-unused-export@1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/no-unused-export/-/no-unused-export-1.3.0.tgz#3b8c48f27041e1f47cea69088dcbb3e15b20230a"
+no-unused-export@1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/no-unused-export/-/no-unused-export-1.4.0.tgz#4f16bbdc3f13a693a08c0b9dee7f81ca48118e1c"
   dependencies:
     glob "7.1.2"
     minimist "1.2.0"
     parse5 "3.0.2"
     postcss-less "1.1.0"
     postcss-scss "1.0.2"
-    typescript "2.5.2"
+    typescript "2.5.3"
 
 node-abi@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/node-abi/-/node-abi-2.1.1.tgz#c9cda256ec8aa99bcab2f6446db38af143338b2a"
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/node-abi/-/node-abi-2.1.2.tgz#4da6caceb6685fcd31e7dd1994ef6bb7d0a9c0b2"
+  dependencies:
+    semver "^5.4.1"
 
 noop-logger@^0.1.1:
   version "0.1.1"
@@ -1351,7 +1353,7 @@ semver@5.3.0:
   version "5.3.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.3.0.tgz#9b2ce5d3de02d17c6012ad326aa6b4d0cf54f94f"
 
-semver@^5.3.0:
+semver@^5.3.0, semver@^5.4.1:
   version "5.4.1"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.4.1.tgz#e059c09d8571f0540823733433505d3a2f00b18e"
 
@@ -1564,13 +1566,13 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
-typescript@2.5.2:
-  version "2.5.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.5.2.tgz#038a95f7d9bbb420b1bf35ba31d4c5c1dd3ffe34"
-
 typescript@2.5.3:
   version "2.5.3"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.5.3.tgz#df3dcdc38f3beb800d4bc322646b04a3f6ca7f0d"
+
+typescript@2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.6.1.tgz#ef39cdea27abac0b500242d6726ab90e0c846631"
 
 ultron@~1.1.0:
   version "1.1.0"
