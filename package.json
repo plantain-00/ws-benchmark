@@ -9,8 +9,7 @@
     "build": "clean-scripts build",
     "lint": "clean-scripts lint",
     "test": "clean-scripts test",
-    "fix": "clean-scripts fix",
-    "release": "clean-scripts release"
+    "fix": "clean-scripts fix"
   },
   "repository": {
     "type": "git",
@@ -30,7 +29,6 @@
     "@types/minimist": "1.2.0",
     "@types/node": "8.0.53",
     "@types/ws": "3.2.0",
-    "clean-release": "1.4.0",
     "clean-scripts": "1.7.0",
     "jasmine": "2.8.0",
     "no-unused-export": "1.4.3",
