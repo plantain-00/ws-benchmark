@@ -22,13 +22,13 @@
   },
   "homepage": "https://github.com/plantain-00/ws-benchmark#readme",
   "devDependencies": {
-    "@commitlint/cli": "5.0.1",
-    "@commitlint/config-angular": "5.0.1",
+    "@commitlint/cli": "5.2.0",
+    "@commitlint/config-angular": "5.1.1",
     "@types/jasmine": "2.8.2",
     "@types/microtime": "2.1.0",
     "@types/minimist": "1.2.0",
-    "@types/node": "8.0.53",
-    "@types/ws": "3.2.0",
+    "@types/node": "8.0.54",
+    "@types/ws": "3.2.1",
     "clean-scripts": "1.7.0",
     "jasmine": "2.8.0",
     "no-unused-export": "1.4.3",
@@ -36,12 +36,12 @@
     "standard": "10.0.3",
     "tslint": "5.8.0",
     "typescript": "2.6.1",
-    "uws": "8.14.1"
+    "uws": "9.14.0"
   },
   "dependencies": {
     "microtime": "2.1.6",
     "minimist": "1.2.0",
-    "ws": "3.3.1"
+    "ws": "3.3.2"
   },
   "bin": {
     "ws-benchmark": "bin/ws-benchmark"
