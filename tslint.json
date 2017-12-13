@@ -30,6 +30,7 @@
         "no-implicit-dependencies": [
             true,
             "dev"
-        ]
+        ],
+        "no-console": false
     }
 }
