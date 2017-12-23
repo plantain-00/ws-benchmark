@@ -22,12 +22,12 @@
   },
   "homepage": "https://github.com/plantain-00/ws-benchmark#readme",
   "devDependencies": {
-    "@commitlint/cli": "5.2.5",
+    "@commitlint/cli": "5.2.6",
     "@commitlint/config-angular": "5.1.1",
     "@types/jasmine": "2.8.2",
     "@types/microtime": "2.1.0",
     "@types/minimist": "1.2.0",
-    "@types/node": "8.0.57",
+    "@types/node": "8.5.2",
     "@types/ws": "3.2.1",
     "clean-scripts": "1.7.0",
     "jasmine": "2.8.0",
@@ -41,7 +41,7 @@
   "dependencies": {
     "microtime": "2.1.6",
     "minimist": "1.2.0",
-    "ws": "3.3.2"
+    "ws": "3.3.3"
   },
   "bin": {
     "ws-benchmark": "bin/ws-benchmark"
