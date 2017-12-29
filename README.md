@@ -1,3 +1,5 @@
+# ws-benchmark
+
 [![Dependency Status](https://david-dm.org/plantain-00/ws-benchmark.svg)](https://david-dm.org/plantain-00/ws-benchmark)
 [![devDependency Status](https://david-dm.org/plantain-00/ws-benchmark/dev-status.svg)](https://david-dm.org/plantain-00/ws-benchmark#info=devDependencies)
 [![Build Status: Linux](https://travis-ci.org/plantain-00/ws-benchmark.svg?branch=master)](https://travis-ci.org/plantain-00/ws-benchmark)
@@ -5,18 +7,17 @@
 [![npm version](https://badge.fury.io/js/ws-benchmark.svg)](https://badge.fury.io/js/ws-benchmark)
 [![Downloads](https://img.shields.io/npm/dm/ws-benchmark.svg)](https://www.npmjs.com/package/ws-benchmark)
 
-# ws-benchmark
 A CLI tool for websocket, like apache bench for http.
 
-#### install
+## install
 
 `npm i ws-benchmark -g`
 
-#### usage
+## usage
 
 run `ws-benchmark http://localhost:8080 -c 10 -n 2000`
 
-#### optional parameters
+## optional parameters
 
 name | default | description
 --- | --- | ---
@@ -30,9 +31,9 @@ name | default | description
 -H | | Add Arbitrary header line, eg. 'Accept-Encoding: gzip'
 -k | | Use HTTP KeepAlive feature
 
-#### result example
+## result example
 
-```
+```txt
 Completed 200 requests
 Completed 400 requests
 Completed 600 requests
