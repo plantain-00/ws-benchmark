@@ -11,7 +11,7 @@ A CLI tool for websocket, like apache bench for http.
 
 ## install
 
-`npm i ws-benchmark -g`
+`yarn global add ws-benchmark`
 
 ## usage
 
