@@ -73,14 +73,12 @@ async function executeCommandLine () {
 
   function showProgress () {
     if (responseCount % progressStep === 0) {
-      // tslint:disable-next-line:no-console
       console.log(`Completed ${responseCount} requests`)
     }
   }
 
   function showResult () {
     const time = microtime.now() - startMoment
-    // tslint:disable:no-console
     console.log(`Concurrency Level:      ${concurrency}`)
     console.log(`Time taken for tests:   ${(time / 1000000.0).toFixed(3)} seconds`)
     console.log(`Complete requests:      ${requests - errorCount}`)
@@ -135,6 +133,9 @@ async function executeCommandLine () {
               }
             }, res => {
               responseCount++
+              if (res.statusCode! >= 500) {
+                errorCount++
+              }
               totalRequestTimes.push(microtime.now() - requestStartMoment)
               resolve()
             })

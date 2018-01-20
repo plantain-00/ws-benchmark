@@ -18,10 +18,14 @@ module.exports = {
   test: [
     'tsc -p spec',
     'jasmine',
-    new Service('node demo/http.js'),
-    `node dist/index.js "http://localhost:8080" -c 10 -n 2000`,
-    new Service('node demo/ws.js'),
-    `node dist/index.js "ws://localhost:8070" -c 10 -n 2000`,
+    [
+      new Service('node demo/http.js'),
+      `node dist/index.js "http://localhost:8080" -c 10 -n 2000`
+    ],
+    [
+      new Service('node demo/ws.js'),
+      `node dist/index.js "ws://localhost:8070" -c 10 -n 2000`
+    ],
     () => checkGitStatus()
   ],
   fix: {
