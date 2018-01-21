@@ -123,7 +123,7 @@ async function executeCommandLine () {
               hostname: urlObject.hostname,
               port: +urlObject.port,
               method,
-              path: urlObject.pathname,
+              path: urlObject.pathname + urlObject.search + (urlObject.hash ? '#' + urlObject.hash : ''),
               agent,
               timeout,
               headers: {
