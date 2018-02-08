@@ -1,10 +1,10 @@
-import * as minimist from 'minimist'
+import minimist from 'minimist'
 import * as http from 'http'
 import * as https from 'https'
 import * as fs from 'fs'
 import { URL } from 'url'
 import * as microtime from 'microtime'
-import * as WebSocket from 'ws'
+import WebSocket from 'ws'
 import * as packageJson from '../package.json'
 
 let suppressError = false
