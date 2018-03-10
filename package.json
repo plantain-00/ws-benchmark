@@ -27,7 +27,7 @@
     "@types/jasmine": "2.8.6",
     "@types/microtime": "2.1.0",
     "@types/minimist": "1.2.0",
-    "@types/node": "9.4.6",
+    "@types/node": "9.4.7",
     "@types/ws": "4.0.1",
     "clean-scripts": "1.7.0",
     "jasmine": "3.1.0",
@@ -43,7 +43,7 @@
   "dependencies": {
     "microtime": "2.1.7",
     "minimist": "1.2.0",
-    "ws": "4.1.0"
+    "ws": "5.0.0"
   },
   "bin": {
     "ws-benchmark": "bin/ws-benchmark"
