@@ -27,7 +27,7 @@
     "@types/jasmine": "2.8.6",
     "@types/microtime": "2.1.0",
     "@types/minimist": "1.2.0",
-    "@types/node": "9.6.2",
+    "@types/node": "9.6.5",
     "@types/ws": "4.0.2",
     "clean-scripts": "1.7.0",
     "jasmine": "3.1.0",
