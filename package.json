@@ -27,7 +27,7 @@
     "@types/jasmine": "2.8.6",
     "@types/microtime": "2.1.0",
     "@types/minimist": "1.2.0",
-    "@types/node": "9.6.6",
+    "@types/node": "10.0.0",
     "@types/ws": "4.0.2",
     "clean-scripts": "1.8.0",
     "jasmine": "3.1.0",
@@ -38,7 +38,7 @@
     "tslint": "5.9.1",
     "tslint-config-standard": "7.0.0",
     "typescript": "2.8.3",
-    "uws": "9.147.0"
+    "uws": "9.148.0"
   },
   "dependencies": {
     "microtime": "2.1.7",
