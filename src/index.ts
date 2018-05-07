@@ -9,11 +9,12 @@ import * as packageJson from '../package.json'
 
 let suppressError = false
 
-function showToolVersion () {
+function showToolVersion() {
   console.log(`Version: ${packageJson.version}`)
 }
 
-async function executeCommandLine () {
+// tslint:disable-next-line:cognitive-complexity
+async function executeCommandLine() {
   const argv = minimist(process.argv.slice(2), { '--': true })
 
   const showVersion = argv.v || argv.version
@@ -71,13 +72,13 @@ async function executeCommandLine () {
   const totalRequestTimes: number[] = []
   const startMoment = microtime.now()
 
-  function showProgress () {
+  function showProgress() {
     if (responseCount % progressStep === 0) {
       console.log(`Completed ${responseCount} requests`)
     }
   }
 
-  function showResult () {
+  function showResult() {
     const time = microtime.now() - startMoment
     console.log(`Concurrency Level:      ${concurrency}`)
     console.log(`Time taken for tests:   ${(time / 1000000.0).toFixed(3)} seconds`)
@@ -112,7 +113,7 @@ async function executeCommandLine () {
       const agent = urlObject.protocol === 'https:' ? new https.Agent() : new http.Agent()
       const requestCount = i < extraRequestCount ? minRequestCountPerClient + 1 : minRequestCountPerClient;
 
-      (async () => {
+      (async() => {
         for (let j = 0; j < requestCount; j++) {
           await new Promise<void>((resolve, reject) => {
             const requestStartMoment = microtime.now()
@@ -167,7 +168,7 @@ async function executeCommandLine () {
         headers: headerObject
       })
       ws.onopen = () => {
-        (async () => {
+        (async() => {
           for (let j = 0; j < requestCount; j++) {
             await new Promise<void>((resolve, reject) => {
               const requestStartMoment = microtime.now()

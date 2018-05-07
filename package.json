@@ -37,6 +37,7 @@
     "standard": "11.0.1",
     "tslint": "5.10.0",
     "tslint-config-standard": "7.0.0",
+    "tslint-sonarts": "1.6.0",
     "typescript": "2.8.3",
     "uws": "9.148.0"
   },
