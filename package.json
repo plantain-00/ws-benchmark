@@ -27,8 +27,8 @@
     "@types/jasmine": "2.8.7",
     "@types/microtime": "2.1.0",
     "@types/minimist": "1.2.0",
-    "@types/node": "10.0.4",
-    "@types/ws": "5.1.0",
+    "@types/node": "10.0.8",
+    "@types/ws": "5.1.1",
     "clean-scripts": "1.8.0",
     "jasmine": "3.1.0",
     "markdownlint-cli": "0.8.1",
@@ -39,7 +39,7 @@
     "tslint-config-standard": "7.0.0",
     "tslint-sonarts": "1.6.0",
     "typescript": "2.8.3",
-    "uws": "9.148.0"
+    "uws": "10.148.0"
   },
   "dependencies": {
     "microtime": "2.1.7",
