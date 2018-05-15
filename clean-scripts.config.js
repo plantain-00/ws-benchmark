@@ -26,6 +26,7 @@ module.exports = {
       new Service('node demo/ws.js'),
       `node dist/index.js "ws://localhost:8070" -c 10 -n 2000`
     ],
+    'clean-release --config clean-run.config.js',
     () => checkGitStatus()
   ],
   fix: {
