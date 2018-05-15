@@ -1,6 +1,6 @@
 {
   "name": "ws-benchmark",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "A CLI tool for websocket, like apache bench for http.",
   "main": "index.js",
   "scripts": {
