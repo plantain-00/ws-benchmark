@@ -27,13 +27,13 @@
     "@types/jasmine": "2.8.7",
     "@types/microtime": "2.1.0",
     "@types/minimist": "1.2.0",
-    "@types/node": "10.0.8",
+    "@types/node": "10.1.2",
     "@types/ws": "5.1.1",
-    "clean-release": "2.5.0",
-    "clean-scripts": "1.8.0",
+    "clean-release": "2.5.2",
+    "clean-scripts": "1.9.2",
     "jasmine": "3.1.0",
-    "markdownlint-cli": "0.8.1",
-    "no-unused-export": "1.5.0",
+    "markdownlint-cli": "0.8.2",
+    "no-unused-export": "1.5.1",
     "rimraf": "2.6.2",
     "standard": "11.0.1",
     "tslint": "5.10.0",
@@ -43,7 +43,7 @@
     "uws": "10.148.0"
   },
   "dependencies": {
-    "microtime": "2.1.7",
+    "microtime": "2.1.8",
     "minimist": "1.2.0",
     "tslib": "1.9.1",
     "ws": "5.1.1"
