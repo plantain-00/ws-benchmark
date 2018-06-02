@@ -100,7 +100,8 @@ async function executeCommandLine() {
       if (index === totalRequestTimes.length) {
         index = totalRequestTimes.length - 1
       }
-      console.log(` ${percent === 100 ? '100' : ` ${percent}`}%      ${(totalRequestTimes[index] / 1000.0).toFixed(3)}`)
+      const formattedPercent = percent === 100 ? '100' : ` ${percent}`
+      console.log(` ${formattedPercent}%      ${(totalRequestTimes[index] / 1000.0).toFixed(3)}`)
     }
     // tslint:enable:no-console
   }
