@@ -32,7 +32,7 @@
     "clean-release": "2.6.0",
     "clean-scripts": "1.9.2",
     "jasmine": "3.1.0",
-    "markdownlint-cli": "0.10.0",
+    "markdownlint-cli": "0.11.0",
     "no-unused-export": "1.5.1",
     "rimraf": "2.6.2",
     "standard": "11.0.1",
@@ -46,7 +46,7 @@
     "microtime": "2.1.8",
     "minimist": "1.2.0",
     "tslib": "1.9.3",
-    "ws": "5.2.1"
+    "ws": "5.2.2"
   },
   "bin": {
     "ws-benchmark": "bin/ws-benchmark"
