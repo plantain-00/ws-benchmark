@@ -36,7 +36,7 @@
     "no-unused-export": "1.5.1",
     "rimraf": "2.6.2",
     "standard": "11.0.1",
-    "tslint": "5.10.0",
+    "tslint": "5.11.0",
     "tslint-config-standard": "7.1.0",
     "tslint-sonarts": "1.7.0",
     "typescript": "2.9.2",
@@ -46,7 +46,7 @@
     "microtime": "2.1.8",
     "minimist": "1.2.0",
     "tslib": "1.9.3",
-    "ws": "5.2.2"
+    "ws": "6.0.0"
   },
   "bin": {
     "ws-benchmark": "bin/ws-benchmark"
