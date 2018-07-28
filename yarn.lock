@@ -159,9 +159,13 @@
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@types/minimist/-/minimist-1.2.0.tgz#69a23a3ad29caf0097f06eda59b361ee2f0639f6"
 
-"@types/node@*", "@types/node@10.5.2":
-  version "10.5.2"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.5.2.tgz#f19f05314d5421fe37e74153254201a7bf00a707"
+"@types/node@*":
+  version "10.5.4"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.5.4.tgz#6eccc158504357d1da91434d75e86acde94bb10b"
+
+"@types/node@10.5.3":
+  version "10.5.3"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.5.3.tgz#5bcfaf088ad17894232012877669634c06b20cc5"
 
 "@types/ws@5.1.2":
   version "5.1.2"
@@ -2884,8 +2888,8 @@ tsutils@2.8.0:
     tslib "^1.7.1"
 
 tsutils@^2.27.2:
-  version "2.28.0"
-  resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-2.28.0.tgz#6bd71e160828f9d019b6f4e844742228f85169a1"
+  version "2.29.0"
+  resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-2.29.0.tgz#32b488501467acbedd4b85498673a0812aca0b99"
   dependencies:
     tslib "^1.8.1"
 
@@ -2949,9 +2953,9 @@ util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
 
-uws@10.148.1:
-  version "10.148.1"
-  resolved "https://registry.yarnpkg.com/uws/-/uws-10.148.1.tgz#fd1a79cf6118a388e0a1bed8a1397030d2c4fd2c"
+uws@99.0.0:
+  version "99.0.0"
+  resolved "https://registry.yarnpkg.com/uws/-/uws-99.0.0.tgz#15e83cda6a135f6a7a70bd399e865be9a14f8d9b"
 
 validate-npm-package-license@^3.0.1:
   version "3.0.3"
