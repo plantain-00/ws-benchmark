@@ -1,4 +1,4 @@
-const WebSocket = require('uws')
+const WebSocket = require('ws')
 
 const wss = new WebSocket.Server({ port: 8070, clientTracking: true })
 
