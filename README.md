@@ -6,6 +6,7 @@
 [![Build Status: Windows](https://ci.appveyor.com/api/projects/status/github/plantain-00/ws-benchmark?branch=master&svg=true)](https://ci.appveyor.com/project/plantain-00/ws-benchmark/branch/master)
 [![npm version](https://badge.fury.io/js/ws-benchmark.svg)](https://badge.fury.io/js/ws-benchmark)
 [![Downloads](https://img.shields.io/npm/dm/ws-benchmark.svg)](https://www.npmjs.com/package/ws-benchmark)
+[![type-coverage](https://img.shields.io/badge/dynamic/json.svg?label=type-coverage&prefix=%E2%89%A5&suffix=%&query=$.typeCoverage.atLeast&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fplantain-00%2Fws-benchmark%2Fmaster%2Fpackage.json)](https://github.com/plantain-00/ws-benchmark)
 
 A CLI tool for websocket, like apache bench for http.
 
