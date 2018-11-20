@@ -16,7 +16,15 @@ A CLI tool for websocket, like apache bench for http.
 
 ## usage
 
-run `ws-benchmark http://localhost:8080 -c 10 -n 2000`
+run `ws-benchmark "ws://localhost:8080" -c 10 -n 2000`
+
+## supported protocols
+
++ ws: `ws-benchmark "ws://localhost:8080" -c 10 -n 2000`
++ wss: `ws-benchmark "wss://localhost:8080" -c 10 -n 2000`
++ http: `ws-benchmark "http://localhost:8080" -c 10 -n 2000`
++ https: `ws-benchmark "https://localhost:8080" -c 10 -n 2000`
++ socket.io: `ws-benchmark "ws://localhost:8080/socket.io/?transport=websocket" -c 10 -n 2000`
 
 ## optional parameters
 
