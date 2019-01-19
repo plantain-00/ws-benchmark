@@ -25,9 +25,9 @@
   },
   "homepage": "https://github.com/plantain-00/ws-benchmark#readme",
   "devDependencies": {
-    "@commitlint/cli": "7.3.1",
+    "@commitlint/cli": "7.3.2",
     "@commitlint/config-conventional": "7.3.1",
-    "@types/jasmine": "3.3.5",
+    "@types/jasmine": "3.3.7",
     "@types/microtime": "2.1.0",
     "@types/minimist": "1.2.0",
     "@types/node": "10.12.18",
@@ -43,7 +43,7 @@
     "tslint-config-standard": "8.0.1",
     "tslint-sonarts": "1.8.0",
     "type-coverage": "1.6.2",
-    "typescript": "3.2.2"
+    "typescript": "3.2.4"
   },
   "dependencies": {
     "microtime": "2.1.8",
