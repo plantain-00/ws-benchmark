@@ -27,10 +27,10 @@
   "devDependencies": {
     "@commitlint/cli": "7.5.2",
     "@commitlint/config-conventional": "7.5.0",
-    "@types/jasmine": "3.3.10",
+    "@types/jasmine": "3.3.12",
     "@types/microtime": "2.1.0",
     "@types/minimist": "1.2.0",
-    "@types/node": "11.11.3",
+    "@types/node": "11.11.6",
     "@types/ws": "6.0.1",
     "clean-release": "2.7.0",
     "clean-scripts": "1.9.2",
