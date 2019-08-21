@@ -13,7 +13,6 @@ function showToolVersion() {
   console.log(`Version: ${packageJson.version}`)
 }
 
-// tslint:disable-next-line:cognitive-complexity
 async function executeCommandLine() {
   const argv = minimist(process.argv.slice(2), { '--': true })
 
@@ -103,7 +102,6 @@ async function executeCommandLine() {
       const formattedPercent = percent === 100 ? '100' : ` ${percent}`
       console.log(` ${formattedPercent}%      ${(totalRequestTimes[index] / 1000.0).toFixed(3)}`)
     }
-    // tslint:enable:no-console
   }
 
   if (url.startsWith('http://') || url.startsWith('https://')) {
