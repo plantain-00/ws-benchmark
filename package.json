@@ -27,13 +27,13 @@
   "devDependencies": {
     "@commitlint/cli": "8.2.0",
     "@commitlint/config-conventional": "8.2.0",
-    "@types/jasmine": "3.4.5",
+    "@types/jasmine": "3.4.6",
     "@types/microtime": "2.1.0",
     "@types/minimist": "1.2.0",
-    "@types/node": "12.12.5",
+    "@types/node": "12.12.7",
     "@types/ws": "6.0.3",
-    "@typescript-eslint/eslint-plugin": "2.6.0",
-    "@typescript-eslint/parser": "2.6.0",
+    "@typescript-eslint/eslint-plugin": "2.6.1",
+    "@typescript-eslint/parser": "2.6.1",
     "clean-release": "2.7.0",
     "clean-scripts": "1.12.1",
     "eslint": "6.6.0",
@@ -44,7 +44,7 @@
     "no-unused-export": "1.10.0",
     "rimraf": "3.0.0",
     "type-coverage": "2.3.0",
-    "typescript": "3.6.4"
+    "typescript": "3.7.2"
   },
   "dependencies": {
     "microtime": "3.0.0",
