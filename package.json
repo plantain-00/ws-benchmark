@@ -30,27 +30,27 @@
     "@types/jasmine": "3.5.0",
     "@types/microtime": "2.1.0",
     "@types/minimist": "1.2.0",
-    "@types/node": "12.12.17",
+    "@types/node": "12.12.21",
     "@types/ws": "6.0.4",
-    "@typescript-eslint/eslint-plugin": "2.11.0",
-    "@typescript-eslint/parser": "2.11.0",
+    "@typescript-eslint/eslint-plugin": "2.12.0",
+    "@typescript-eslint/parser": "2.12.0",
     "clean-release": "2.7.0",
     "clean-scripts": "1.12.1",
-    "eslint": "6.7.2",
+    "eslint": "6.8.0",
     "eslint-config-prettier": "6.7.0",
     "eslint-plugin-plantain": "0.1.2",
     "jasmine": "3.5.0",
-    "markdownlint-cli": "0.19.0",
+    "markdownlint-cli": "0.20.0",
     "no-unused-export": "1.10.0",
     "rimraf": "3.0.0",
     "type-coverage": "2.3.1",
-    "typescript": "3.7.3"
+    "typescript": "3.7.4"
   },
   "dependencies": {
     "microtime": "3.0.0",
     "minimist": "1.2.0",
     "tslib": "1.10.0",
-    "ws": "7.2.0"
+    "ws": "7.2.1"
   },
   "bin": {
     "ws-benchmark": "bin/ws-benchmark"
