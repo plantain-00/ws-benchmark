@@ -1,9 +1,9 @@
-const { Service, checkGitStatus } = require('clean-scripts')
+import { Service, checkGitStatus, sleep } from 'clean-scripts'
 
-const tsFiles = `"src/**/*.ts" "spec/**/*.ts"`
-const jsFiles = `"*.config.js" "demo/*.js"`
+const tsFiles = `"src/**/*.ts"`
+const jsFiles = `"*.config.js"`
 
-module.exports = {
+export default {
   build: [
     'rimraf dist/',
     'tsc -p src/'
@@ -16,17 +16,17 @@ module.exports = {
     typeCoverage: 'type-coverage -p src --strict'
   },
   test: [
-    'tsc -p spec',
-    'jasmine',
     [
-      new Service('node demo/http.js'),
+      new Service('ts-node demo/http.ts'),
+      () => sleep(2000),
       `node dist/index.js "http://localhost:8080" -c 10 -n 2000`
     ],
     [
-      new Service('node demo/ws.js'),
+      new Service('ts-node demo/ws.ts'),
+      () => sleep(2000),
       `node dist/index.js "ws://localhost:8070" -c 10 -n 2000`
     ],
-    'clean-release --config clean-run.config.js',
+    'clean-release --config clean-run.config.ts',
     () => checkGitStatus()
   ],
   fix: `eslint --ext .js,.ts,.tsx ${tsFiles} ${jsFiles} --fix`
