@@ -38,7 +38,6 @@
     "eslint": "7.1.0",
     "eslint-config-prettier": "6.11.0",
     "eslint-plugin-plantain": "1.0.0",
-    "jasmine": "3.5.0",
     "markdownlint-cli": "0.23.1",
     "no-unused-export": "1.10.3",
     "rimraf": "3.0.2",
