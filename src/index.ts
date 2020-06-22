@@ -13,12 +13,56 @@ function showToolVersion() {
   console.log(`Version: ${packageJson.version}`)
 }
 
+function showHelp() {
+  console.log(`Version ${packageJson.version}
+Syntax:   ws-benchmark [options] [url]
+Examples: ws-benchmark "ws://localhost:8080" -c 10 -n 2000
+          ws-benchmark "wss://localhost:8080" -c 10 -n 2000
+          ws-benchmark "http://localhost:8080" -c 10 -n 2000
+          ws-benchmark "https://localhost:8080" -c 10 -n 2000
+          ws-benchmark "ws://localhost:8080/socket.io/?transport=websocket" -c 10 -n 2000
+Options:
+ -h, --help                                         Print this message.
+ -v, --version                                      Print the version
+ -c                                                 Number of multiple requests to make at a time(the count of http clients or websocket connections)
+ -n                                                 Number of requests to perform
+ -m                                                 Method name
+ -s                                                 Seconds to max. wait for each response
+ -f                                                 File containing data to request. Remember also to set -T
+ -T                                                 Content-type header to use
+ -C                                                 Add cookie, eg. 'Apache=1234'
+ -H                                                 Add Arbitrary header line, eg. 'Accept-Encoding: gzip'
+ -k                                                 Use HTTP KeepAlive feature
+`)
+}
+
 async function executeCommandLine() {
-  const argv = minimist(process.argv.slice(2), { '--': true })
+  const argv = minimist(process.argv.slice(2), { '--': true }) as unknown as {
+    v?: unknown
+    version?: unknown
+    h?: unknown
+    help?: unknown
+    suppressError: boolean
+    c?: number
+    n?: number
+    _: string[]
+    s?: number
+    m?: string
+    f?: string
+    T?: any
+    H: string | string[]
+    C: string | string[]
+    k?: unknown
+  }
 
   const showVersion = argv.v || argv.version
   if (showVersion) {
     showToolVersion()
+    return
+  }
+
+  if (argv.h || argv.help) {
+    showHelp()
     return
   }
 

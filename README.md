@@ -39,6 +39,8 @@ name | default | description
 -C | | Add cookie, eg. 'Apache=1234'
 -H | | Add Arbitrary header line, eg. 'Accept-Encoding: gzip'
 -k | | Use HTTP KeepAlive feature
+-h,--help | | Print this message.
+-v,--version | | Print the version
 
 ## result example
 
