@@ -47,7 +47,7 @@
   "dependencies": {
     "microtime": "3.0.0",
     "minimist": "1.2.5",
-    "tslib": "2.0.0",
+    "tslib": "1 || 2",
     "ws": "7.3.0"
   },
   "bin": {
