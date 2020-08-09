@@ -53,5 +53,8 @@
   },
   "bin": {
     "ws-benchmark": "bin/ws-benchmark"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
