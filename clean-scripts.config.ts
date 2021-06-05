@@ -21,7 +21,7 @@ export default {
     ],
     [
       new Service('ts-node demo/ws.ts'),
-      () => sleep(2000),
+      () => sleep(3000),
       `node dist/index.js "ws://localhost:8070" -c 10 -n 2000`
     ],
     'clean-release --config clean-run.config.ts',
