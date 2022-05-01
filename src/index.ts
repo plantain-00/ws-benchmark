@@ -233,6 +233,13 @@ async function executeCommandLine() {
           ws.close()
         })()
       }
+      ws.onerror = () => {
+        errorCount += (requests - responseCount - errorCount)
+        showResult()
+        if (!suppressError) {
+          process.exit(1)
+        }
+      }
     }
   } else {
     throw new Error('Invalid url')
